@@ -7,7 +7,7 @@ title: 扁嘴伦
 #heroImage: /logo.svg
 heroText: 扁嘴伦
 tagline: 一气化三清太清居大赤天仙登太清境玄气所成日神宝君道德天尊混元上帝
-bgImage: https://raw.githubusercontent.com/bianzuilun/bianzuilun.github.io/main/docs/background.jpg
+bgImage: https://z1.ax1x.com/2023/09/21/pPIvfOS.md.jpg
 heroFullScreen: false
 #projects:
 #  - icon: project

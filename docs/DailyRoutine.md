@@ -4,34 +4,9 @@ title: 每日仪式
 icon: check
 ---
 
-每日仪式是个人生活习惯的核心。它看起来可能会显得固化、死板、功利，有人反馈「透露着一股形式主义气息」，但是，这正是我想要的：**遵循一个固定、程序化的流程，有规律地养成习惯**，实现自我提升。
-
 ## 仪式清单
 
-### 5AM Club
-
-5AM Club 是我的[高效早晨方案](https://newzone.top/posts/2023-03-31-efficient_morning_5am_club.html)：
-
-1. 早上 5 点起床，使用手环震动闹钟。
-2. 泡杯咖啡，准备早餐，开始第一个工作番茄。
-3. 工作 25 分钟休息 5 分钟，休息期间完成每日必须：拍照打卡发 SNS，吃早餐。
-4. 每天最低完成 8 个番茄，之后可进入长休息区间，进行家务打扫、健身、娱乐。
-5. 晚上 10 点睡觉，保证充足的睡眠时间。
-
-[Huberman Lab](https://hubermanlab.com/sleep-toolkit-tools-for-optimizing-sleep-and-sleep-wake-timing/) 建议早晨不一定需要进食，可以到中午再进食，改变身体的新陈代谢周期；醒来后两到四小时再摄入咖啡因，并尽量避免在午后摄入咖啡因，以防下午的 cafferine crush。请根据个人情况灵活调整计划。
-
 ### 每日
-
-- **早上创造美好情绪**：赞美、仪式感、吃好吃的、看搞笑视频、听歌。
-
-  - 唱歌：唱一首你喜欢的歌曲（外语美声歌曲可以增加脂肪消耗，例如：秋山雅史的《千の風になって》）。
-  - 自拍视频：说一句话（比如当天的目标）来鼓励自己。在前一天想好录制内容，以获得积极情绪。
-  - 参考[积极心理学](https://www.xuetangx.com/course/THU07111001088/)，收集积极情绪材料，放在显眼的地方：家人的照片、取得的成绩、美好的回忆、憧憬的未来、向往的地方、喜欢的艺术（音乐、名画、诗句）。
-
-- **人际连接**：通过直播连麦与陌生人沟通 15 分钟，例如：播客、抖音语音电台直播 PK。
-
-  - 别人很重要：帮助别人，能让人更健康、更幸福。当心情不好时，去帮助其他人，心情会变得更好。
-  - 表扬和自我表扬：赞美自己、家人，发挥标志性优势，总比弥补缺点更有效。
 
 - **微习惯**：
 
@@ -44,40 +19,7 @@ icon: check
   - 墨墨背单词：每天背 20 个单词，虽然用处不大，但可以让脑子换个思路。
   - 笔记复习：利用思源笔记/SuperMemo 记忆模型，复习心理认知、沟通理论和行为反思等笔记。
 
-- **当日回顾**：每天记录 3 件好事，总结好事发生的原因，并与家人分享。
 
-  > 这可以是日常生活中常见的小事，比如读到一本好书、吃到一道好菜、听到一个亲友的好消息、在公交车上有人为你让座、孩子今天会走路了，等等。
-
-### 定期
-
-- **月底反思**：检查日记和成果，对当月进行复盘，并将其同步给家人，征求意见、批评并记录。
-  - 每月复盘参照 [Allison Seboldt](https://allisonseboldt.com/)，作者会分享他的收入并反思上个月的成就。
-  - 阅读 [JustinJ ackson](https://justinjackson.ca/bootstrap)，作者在 2018 年初创办 Transistor 以来，一直在分享他的项目，整理了在此过程中学到的许多经验教训。
-- **积极自我介绍**：每三个月，讲述一个「最佳的我」的故事，植入你的优势，进行自我肯定。
-
-### 自我监控
-
-为了更好地监督自己，我制定了一套[自我监控方案](https://newzone.top/posts/2022-05-22-surveillance_video_for_myself.html)，以记录自己的私人工作状态。
-
-1. 开机（8 点）启动录屏命令，并检测护眼提醒是否开启。可参考 [FFmpeg 录屏方案](https://newzone.top/posts/2022-11-03-ffmpeg_screen_recording.html)来修改命令：
-
-   ```bash
-   ffmpeg -f gdigrab -r 0.1 -draw_mouse 1 -offset_x 0 -offset_y 0 -video_size 2560x1440 -i desktop -s 1280x720 -b:v 0 -crf 32 output.mp4 -f dshow -s 640x480 -i video='USB2.0 PC CAMERA' -filter_complex 'overlay=W-w-1:H-h-50' -y
-   ```
-
-2. 晚上 10 点执行关机程序：静音、关闭护眼提醒、关闭录屏终端，并使用 dvr-scan 删除视频中的静止帧。这些步骤可以通过 AutoHotkey 命令自动完成。
-
-   ```autohotkey
-   Send, {Volume_Mute}
-   Process, Close, Stretchly.exe
-   Process, Close, pwsh.exe
-   Sleep, 500000
-   Run, PowerShell.exe -NoExit -Command &{dvr-scan -i output.mp4 -o %A_YYYY%-%A_MM%-%A_DD%_Scanned.avi}, D:\Backup\Libraries\Desktop
-   ```
-
-3. 使用 VLC 播放器可以以 31.25 倍的速度回放监控视频，并结合 ManicTime 来回顾当日内容。要轻松实现 VLC 的高倍速播放，可以在「菜单栏」->「视图」中开启「状态栏」。此外，通过剪映，可以达到 100 倍的播放速度。
-
-## 时间管理
 
 GTD 的存在是让大脑清空不混乱目的，明确知道下一步应该做什么。GTD 流程依次为**捕获（Capture），明晰（Clarify），组织（Organize），回顾（Reflect），执行（Engage）**。
 
