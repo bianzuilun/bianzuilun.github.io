@@ -3,11 +3,11 @@
 home: true
 layout: BlogHome
 icon: home
-title: 互联网小白
+title: 扁嘴伦
 #heroImage: /logo.svg
-heroText: 互联网小白
-tagline: 盛年不重来，一日难再晨
-bgImage: https://img.newzone.top/home-bg-1.jpg
+heroText: 扁嘴伦
+tagline: 一气化三清太清居大赤天仙登太清境玄气所成日神宝君道德天尊混元上帝
+bgImage: https://raw.githubusercontent.com/bianzuilun/bianzuilun.github.io/main/docs/background.jpg
 heroFullScreen: false
 #projects:
 #  - icon: project
