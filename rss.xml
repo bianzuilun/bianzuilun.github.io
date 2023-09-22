@@ -6,8 +6,8 @@
     <link>https://newzone.top/</link>
     <description>开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。</description>
     <language>zh-CN</language>
-    <pubDate>Fri, 22 Sep 2023 08:51:07 GMT</pubDate>
-    <lastBuildDate>Fri, 22 Sep 2023 08:51:07 GMT</lastBuildDate>
+    <pubDate>Fri, 22 Sep 2023 09:03:39 GMT</pubDate>
+    <lastBuildDate>Fri, 22 Sep 2023 09:03:39 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>工具</category>
@@ -15,7 +15,7 @@
     <category>系统</category>
     <category>网络</category>
     <category>服务器</category>
-    <category>健康</category>
+    <category>博客</category>
     <item>
       <title>跳过第三方软件，一步到位实现微信双开的秘密</title>
       <link>https://newzone.top/posts/2017-04-18-wechat_multi_open.html</link>
@@ -113,26 +113,6 @@
 </ul>
 ]]></content:encoded>
       <enclosure url="https://pic1.zhimg.com/v2-b5da0b08f632376fad3925a779e373b4_r.jpg" type="image/jpeg"/>
-    </item>
-    <item>
-      <title>OneNote 2016 无法登陆问题解决</title>
-      <link>https://newzone.top/posts/2017-07-29-onenote_2016_cannot_be_logged_in.html</link>
-      <guid>https://newzone.top/posts/2017-07-29-onenote_2016_cannot_be_logged_in.html</guid>
-      <source url="https://newzone.top/rss.xml">OneNote 2016 无法登陆问题解决</source>
-      <description>OneNote 安装后，提示输入账号，但点击「下一步」始终没反应，无法进行登陆。 打开 IE 浏览器，访问 live.com，如果网页提示「登录需要启动 JavaScript」，说明问题的根源出在 IE 的设置上。</description>
-      <category>系统</category>
-      <pubDate>Sat, 29 Jul 2017 15:19:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>OneNote 安装后，提示输入账号，但点击「下一步」始终没反应，无法进行登陆。</p>
-<figure><img src="https://pic4.zhimg.com/v2-d5945359b896ffd09d9973e9597ec06b_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>打开 IE 浏览器，访问 <a href="http://live.com" target="_blank" rel="noopener noreferrer">live.com</a>，如果网页提示「登录需要启动 JavaScript」，说明问题的根源出在 IE 的设置上。</p>
-<figure><img src="https://pic1.zhimg.com/v2-cc00b3039f755b92f9ae511c8b7debd0_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>点击「IE 设置」&gt;「Internet 选项」&gt;「安全」&gt;「自定义级别」，然后启用脚本选项的「Java 小程序脚本」和「活动脚本」。</p>
-<figure><img src="https://pic2.zhimg.com/v2-717bf3c8b62748b62a04219435b8a75d_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<figure><img src="https://pic4.zhimg.com/v2-25697b0c27aa8780c532b7a03a78dcbf_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>完成设置后，即可正常登录并打开 OneNote。</p>
-<figure><img src="https://pic4.zhimg.com/v2-ff20ef8aa22215cba64b879775dfdf4f_r.jpg" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-]]></content:encoded>
-      <enclosure url="https://pic4.zhimg.com/v2-d5945359b896ffd09d9973e9597ec06b_r.jpg" type="image/jpeg"/>
     </item>
     <item>
       <title>电脑关机了，第二天一看确又开着的？让系统正常关机！</title>
@@ -347,92 +327,63 @@ AI 会取代你的工作！</p>
 ]]></content:encoded>
     </item>
     <item>
-      <title>提早晚餐，饿死算逑</title>
-      <link>https://newzone.top/posts/2018-03-06-no_more_dinner.html</link>
-      <guid>https://newzone.top/posts/2018-03-06-no_more_dinner.html</guid>
-      <source url="https://newzone.top/rss.xml">提早晚餐，饿死算逑</source>
-      <description>上大学后，每天晚上都打游戏点「叉鸭例牌 + 两碗米饭」，体重成功上到 85KG。后来减肥在 13 年达到历史低点 75KG，但后来持续上升，在 18 年春节达到顶点，93KG，比婚前胖了38 斤。 目前以在家办公为主，很少出门，每天走路都没走多少，更别说运动了。 解决方案： 增加运动：每天划船机 2 公里，后期再逐步加量 调节饮食，多喝水不吃炸鸡 早餐：9 点，牛奶 + 麦片 午餐：12 点，正常 晚餐：4 点，晚餐后不再吃东西</description>
-      <category>健康</category>
-      <pubDate>Tue, 06 Mar 2018 22:06:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>上大学后，每天晚上都打游戏点「叉鸭例牌 + 两碗米饭」，体重成功上到 85KG。后来减肥在 13 年达到历史低点 75KG，但后来持续上升，在 18 年春节达到顶点，93KG，比婚前胖了<strong>38 斤</strong>。</p>
-<p>目前以在家办公为主，很少出门，每天走路都没走多少，更别说运动了。</p>
-<p><strong>解决方案：</strong></p>
+      <title>新手建站神器 - 宝塔面板</title>
+      <link>https://newzone.top/posts/2018-04-30-baota_deploy_vps.html</link>
+      <guid>https://newzone.top/posts/2018-04-30-baota_deploy_vps.html</guid>
+      <source url="https://newzone.top/rss.xml">新手建站神器 - 宝塔面板</source>
+      <description>新手建站最大的痛苦就是对服务器环境不熟悉，难以管理部署。 国产的宝塔面板可以轻松解决这个问题，可以在可视化界面中为服务器安装应用、同步文件、定期执行代码、管理服务。 一键创建网站、FTP、数据库、SSL；安全管理，计划任务，文件管理，PHP 多版本共存及切换；自带 LNMP 与 LAMP 宝塔面板界面图</description>
+      <category>服务器</category>
+      <pubDate>Mon, 30 Apr 2018 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>新手建站最大的痛苦就是对服务器环境不熟悉，难以管理部署。</p>
+<p>国产的宝塔面板可以轻松解决这个问题，可以在可视化界面中为服务器安装应用、同步文件、定期执行代码、管理服务。</p>
+<blockquote>
+<p>一键创建网站、FTP、数据库、SSL；安全管理，计划任务，文件管理，PHP 多版本共存及切换；自带 LNMP 与 LAMP</p>
+</blockquote>
+<figure><img src="https://img.newzone.top/20180430000000.jpg?imageMogr2/format/webp" alt="宝塔面板界面图" tabindex="0" loading="lazy"><figcaption>宝塔面板界面图</figcaption></figure>
+<p>宝塔安装说明：<a href="https://www.bt.cn/bbs/thread-1186-1-1.html" target="_blank" rel="noopener noreferrer">https://www.bt.cn/bbs/thread-1186-1-1.html</a></p>
+<h2> 宝塔安装 LNMP 或 LAMP 环境</h2>
+<p><strong>LNMP</strong> 和 <strong>LAMP</strong> 都是成熟的建站环境，根据自身需求选择其中之一即可。如果有特殊的定制需求，可以在左侧的「软件管理」中选择需要安装的环境。</p>
+<figure><img src="https://img.newzone.top/20180430000001.jpg?imageMogr2/format/webp" alt="软件安装界面" tabindex="0" loading="lazy"><figcaption>软件安装界面</figcaption></figure>
+]]></content:encoded>
+      <enclosure url="https://img.newzone.top/20180430000000.jpg?imageMogr2/format/webp" type="image/"/>
+    </item>
+    <item>
+      <title>Jekyll 篇一：3 分钟搭建 Github Pages 博客</title>
+      <link>https://newzone.top/posts/2018-05-01-jekyll_blog_on_github_pages.html</link>
+      <guid>https://newzone.top/posts/2018-05-01-jekyll_blog_on_github_pages.html</guid>
+      <source url="https://newzone.top/rss.xml">Jekyll 篇一：3 分钟搭建 Github Pages 博客</source>
+      <description>一直都想建立自己的个人博客，重装过 N 次 WordPress，又因为种种原因而放弃。 偶然看到了 Hux 的 Jekyll 模板，被漂亮的设计给迷住了。Github Pages 默认支持 Jekyll 环境，并提供了免费空间和流量，因此开始了 Github Pages + Jekyll 之路。 搭建流程 注册并登录 Github。 选择一个喜欢的 Jekyll 模板, 进入对应的 Github 主页。我选了黄玄的 Hux Blog。 点击 Fork, 将喜欢的模板复制到自己的 Github 仓库中。 点击 Setting, 修改 Repository name 为 xxx.github.io, xxx 是你的 Github 用户名。 同一页面选择「Code and automation」&amp;gt;「Pages」&amp;gt;「Build and deployment」&amp;gt;「Branch」, 将 master branch 设为 Github Pages 来源，网站运行目录默认为 /(root)。设置好后，点击「Save」。 最后，按页面提示访问链接 https://xxx.github.io/，新博客搭建完毕。</description>
+      <category>博客</category>
+      <pubDate>Tue, 01 May 2018 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>一直都想建立自己的个人博客，重装过 N 次 WordPress，又因为种种原因而放弃。</p>
+<p>偶然看到了 Hux 的 Jekyll 模板，被漂亮的设计给迷住了。Github Pages 默认支持 Jekyll 环境，并提供了免费空间和流量，因此开始了 Github Pages + Jekyll 之路。</p>
+<h3> 搭建流程</h3>
 <ol>
 <li>
-<p>增加运动：每天划船机 2 公里，后期再逐步加量</p>
+<p>注册并登录 <a href="https://github.com/" target="_blank" rel="noopener noreferrer">Github</a>。</p>
 </li>
 <li>
-<p>调节饮食，多喝水不吃炸鸡</p>
-<ul>
-<li>
-<p>早餐：9 点，牛奶 + 麦片</p>
+<p>选择一个喜欢的 <a href="http://jekyllthemes.org/" target="_blank" rel="noopener noreferrer">Jekyll 模板</a>, 进入对应的 Github 主页。我选了黄玄的 <a href="https://github.com/Huxpro/huxpro.github.io" target="_blank" rel="noopener noreferrer">Hux Blog</a>。</p>
 </li>
 <li>
-<p>午餐：12 点，正常</p>
+<p>点击 <code>Fork</code>, 将喜欢的模板复制到自己的 Github 仓库中。</p>
+<figure><img src="https://img.newzone.top/20180505201522.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 </li>
 <li>
-<p>晚餐：4 点，晚餐后不再吃东西</p>
+<p>点击 <code>Setting</code>, 修改 <code>Repository name</code> 为 <code>xxx.github.io</code>, <code>xxx</code> 是你的 Github 用户名。</p>
+<figure><img src="https://img.newzone.top/20180505202201.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 </li>
-</ul>
+<li>
+<p>同一页面选择「Code and automation」&gt;「Pages」&gt;「Build and deployment」&gt;「Branch」, 将 master branch 设为 Github Pages 来源，网站运行目录默认为 <code>/(root)</code>。设置好后，点击「Save」。</p>
+<figure><img src="https://img.newzone.top/2022-08-08-11-42-16.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
+</li>
+<li>
+<p>最后，按页面提示访问链接 <code>https://xxx.github.io/</code>，新博客搭建完毕。</p>
+<figure><img src="https://img.newzone.top/20180505202859.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
 </li>
 </ol>
-<table>
-<thead>
-<tr>
-<th>日期</th>
-<th>历史体重</th>
-<th>备注</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2012 年 9 月 2 日 23:04:51</td>
-<td>85KG</td>
-<td>今天吃了 3 个苹果，3 块钱煎饼。刚洗完澡</td>
-</tr>
-<tr>
-<td>2013 年 4 月 11 日 21:24:54</td>
-<td>86.4KG</td>
-<td>脱去外套</td>
-</tr>
-<tr>
-<td>2013 年 9 月 5 日 8 点</td>
-<td>81.8kg</td>
-<td></td>
-</tr>
-<tr>
-<td>2013 年 10 月 3 日 9:55:02</td>
-<td>78.7KG</td>
-<td></td>
-</tr>
-<tr>
-<td>2014 年 2 月 25 日春节</td>
-<td>83KG</td>
-<td>重新开始减重</td>
-</tr>
-<tr>
-<td>2014 年 10 月 19 日 16:50:10</td>
-<td>86.1KG</td>
-<td></td>
-</tr>
-<tr>
-<td>2016 年 8 月 4 日</td>
-<td>88KG</td>
-<td></td>
-</tr>
-<tr>
-<td>2018 年 3 月 6 日 晚</td>
-<td>91.6 KG</td>
-<td></td>
-</tr>
-<tr>
-<td>2020 年 10 月 6 日</td>
-<td>95 KG</td>
-<td>巅峰，开始营养健康餐</td>
-</tr>
-</tbody>
-</table>
 ]]></content:encoded>
+      <enclosure url="https://img.newzone.top/20180505201522.png?imageMogr2/format/webp" type="image/"/>
     </item>
   </channel>
 </rss>
