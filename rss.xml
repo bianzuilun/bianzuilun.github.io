@@ -6,46 +6,15 @@
     <link>https://newzone.top/</link>
     <description>开源工具、效率方法、心理学探索的自我提升笔记，记录并输出一切能让自己提升的知识。</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 23 Sep 2023 08:17:27 GMT</pubDate>
-    <lastBuildDate>Sat, 23 Sep 2023 08:17:27 GMT</lastBuildDate>
+    <pubDate>Sat, 23 Sep 2023 08:21:23 GMT</pubDate>
+    <lastBuildDate>Sat, 23 Sep 2023 08:21:23 GMT</lastBuildDate>
     <generator>vuepress-plugin-feed2</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>工具</category>
     <category>自动化</category>
     <category>系统</category>
     <category>网络</category>
     <category>服务器</category>
     <category>博客</category>
-    <item>
-      <title>跳过第三方软件，一步到位实现微信双开的秘密</title>
-      <link>https://newzone.top/posts/2017-04-18-wechat_multi_open.html</link>
-      <guid>https://newzone.top/posts/2017-04-18-wechat_multi_open.html</guid>
-      <source url="https://newzone.top/rss.xml">跳过第三方软件，一步到位实现微信双开的秘密</source>
-      <description>由于工作原因，有时候我们需要在电脑上登录多个微信。但微信限制一个客户端只能登陆一个账号，PC 端 + 网页版就成了通用方案，操作效率下降许多。 其实我们还有更好的办法。在微信 PC 版之余，同时安装微信 For Windows，就能实现客户端双开！ 微信 For Windows 安装 打开「运行」对话框，输入并启动「应用商店」或「Microsoft Store」，搜索并安装 微信 For Windows。</description>
-      <category>工具</category>
-      <pubDate>Tue, 18 Apr 2017 00:00:00 GMT</pubDate>
-      <content:encoded><![CDATA[<p>由于工作原因，有时候我们需要在电脑上登录多个微信。但微信限制一个客户端只能登陆一个账号，PC 端 + 网页版就成了通用方案，操作效率下降许多。</p>
-<p>其实我们还有更好的办法。在微信 PC 版之余，同时安装微信 For Windows，就能实现客户端双开！</p>
-<h2> 微信 For Windows 安装</h2>
-<p>打开「运行」对话框，输入并启动「应用商店」或「Microsoft Store」，搜索并安装 <code>微信 For Windows</code>。</p>
-<figure><img src="https://img.newzone.top/2022-05-06-04-21-30.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<p>安装好后，就能与微信 PC 版一齐启动，互不干扰。</p>
-<figure><img src="https://img.newzone.top/2022-05-06-04-21-40.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h2> 开机启动两个微信</h2>
-<p>找到系统启动文件夹，文件夹路径为：<code>%AppData%\Microsoft\Windows\Start Menu\Programs\Startup</code>。或者打开「运行」对话框，输入命令「shell:startup」，回车即可打开「启动文件夹」。</p>
-<p>将微信 for windows 10 的快捷方式放到「启动」文件夹里。</p>
-<figure><img src="https://img.newzone.top/2022-05-06-04-23-49.png?imageMogr2/format/webp" alt="" tabindex="0" loading="lazy"><figcaption></figcaption></figure>
-<h2> 其他方法</h2>
-<p>如果还需要继续多开微信，可以<strong>按住回车键，然后左键点击微信图标</strong>，需要开启几个就点击几次。</p>
-<p>也可以尝试 @刘舒怡 提到的办法：</p>
-<blockquote>
-<p>只要在 2 秒内快速连续双击打开软件，就能弹出很多登录界面，你想登多少个就登多少个</p>
-</blockquote>
-<p>此外，已有开发者专门为微信和 QQ 制作了多开补丁。若需同时打开四个或更多窗口，可以试用 <a href="https://github.com/huiyadanli/RevokeMsgPatcher" target="_blank" rel="noopener noreferrer">RevokeMsgPatcher</a>，国内下载链接：<a href="https://wwva.lanzouq.com/irUIX187hz3c" target="_blank" rel="noopener noreferrer">RevokeMsgPatcher.v1.6.zip</a>。</p>
-<p>然而，使用多开补丁存在一定风险。我仅尝试过其中的防撤回功能，建议在使用多开补丁时务必小心。</p>
-]]></content:encoded>
-      <enclosure url="https://img.newzone.top/2022-05-06-04-21-30.png?imageMogr2/format/webp" type="image/"/>
-    </item>
     <item>
       <title>RSS 入门篇：Feed43&amp;FeedEx-为静态网页定制 RSS 源</title>
       <link>https://newzone.top/posts/2017-04-22-rss_feed43_feedex.html</link>
@@ -384,6 +353,33 @@ AI 会取代你的工作！</p>
 </ol>
 ]]></content:encoded>
       <enclosure url="https://img.newzone.top/20180505201522.png?imageMogr2/format/webp" type="image/"/>
+    </item>
+    <item>
+      <title>Jekyll 扩展篇：服务器搭建 Jekyll 博客</title>
+      <link>https://newzone.top/posts/2018-05-02-jekyll_blog_on_vps.html</link>
+      <guid>https://newzone.top/posts/2018-05-02-jekyll_blog_on_vps.html</guid>
+      <source url="https://newzone.top/rss.xml">Jekyll 扩展篇：服务器搭建 Jekyll 博客</source>
+      <description>Github 墙得太厉害，就想在服务器上自建 Jekyll 环境，用上 Travis CI 和 Docker 后才发现完全没必要。。 Jekyll 环境官方安装指南： 使用 RVM 安装 Ruby (rvm -&amp;gt; ruby -&amp;gt; gem 网上大量教程就不赘述了) 安装 jekyll：gem install jekyll。 进入 jekyll 网站，执行命令行 jekyll build，生成 Jekyll 静态网页。 网站的执行目录需要指定在 _site，这是 Jekyll 生成的静态页面目录。之后每次更新博客，都需要进入服务器执行一次 jekyll build，重新生成静态页面。</description>
+      <category>博客</category>
+      <pubDate>Wed, 02 May 2018 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[<p>Github 墙得太厉害，就想在服务器上自建 Jekyll 环境，用上 Travis CI 和 Docker 后才发现完全没必要。。</p>
+<p>Jekyll 环境官方<a href="https://www.jekyll.com.cn/docs/quickstart/" target="_blank" rel="noopener noreferrer">安装指南</a>：</p>
+<ol>
+<li>
+<p>使用 RVM 安装 Ruby (rvm -&gt; ruby -&gt; gem 网上大量教程就不赘述了)</p>
+</li>
+<li>
+<p>安装 jekyll：<code>gem install jekyll</code>。</p>
+</li>
+<li>
+<p>进入 jekyll 网站，执行命令行 <code>jekyll build</code>，生成 Jekyll 静态网页。</p>
+</li>
+<li>
+<p>网站的执行目录需要指定在 <code>_site</code>，这是 Jekyll 生成的静态页面目录。之后每次更新博客，都需要进入服务器执行一次 <code>jekyll build</code>，重新生成静态页面。</p>
+</li>
+</ol>
+<p>愿意折腾的话，可以使用 Travis CI 和 Docker 完成全自动化更新。</p>
+]]></content:encoded>
     </item>
   </channel>
 </rss>
