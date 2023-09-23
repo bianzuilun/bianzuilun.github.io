@@ -11,5 +11,5 @@ jobs:
               env:
                   SSH_PRIVATE_KEY: ${{ secrets.GITEE_PRIVATE_KEY }}
               with:
-                  source-repo:git@github.com:bianzuilun/bianzuilun.github.io.git
-                  destination-repo:git@gitee.com:BianZuiLunLunLun/bianzuilun.gitee.io.git
+                  source-repo:"git@github.com:bianzuilun/bianzuilun.github.io.git"
+                  destination-repo:"git@gitee.com:BianZuiLunLunLun/bianzuilun.gitee.io.git"
