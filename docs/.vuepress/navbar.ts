@@ -64,11 +64,11 @@ export default navbar([
       {
         text: "微信",
         icon: "wechat",
-        link: "https://img.newzone.top/wechat.svg",
+        link: "none",
       },
-      { text: "Email", icon: "alias", link: "mailto:learndata@newzone.top" },
-      { text: "Discord", icon: "group", link: "https://discord.gg/PZTQfJ4GjX" },
-      { text: "RSS", icon: "rss", link: "https://newzone.top/rss.xml" },
+      { text: "Email", icon: "alias", link: "mailto:2582808484@qq.com" },
+      { text: "Discord", icon: "group", link: "none" },
+      { text: "RSS", icon: "rss", link: "none" },
     ],
   },
 ]);
