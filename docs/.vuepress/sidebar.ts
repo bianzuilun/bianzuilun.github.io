@@ -20,6 +20,7 @@ export default sidebar({
       "design.md",
       "ChatGPT.md",
       "Chrome.md",
+      "test.md",
       {
         text: "直播手册",
         icon: "load",
